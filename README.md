@@ -8,5 +8,13 @@ cd ckan/contrib/docker
 cp .env.template .env
 docker-compose up -d --build
 # On Windows
-start http://localhost:5000
+Start http://localhost:5000
+```
+
+## Configure CKAN
+
+Check out this video:
+
+```
+Start https://youtu.be/PFe3Gv_-1wY
 ```
