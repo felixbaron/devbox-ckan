@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+# <codecell>
 # !pip install requests
 import json
 import requests
@@ -16,3 +16,8 @@ headers = {'Authorization': token}
 response = requests.post(server_url, data=dataset_dict, headers=headers)
 response_json = json.loads(response.text)
 assert response_json['success'] is True
+
+# <codecell>
+
+# TODO: add file upload
+# See: https://docs.ckan.org/en/latest/maintaining/filestore.html
